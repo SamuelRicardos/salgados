@@ -60,6 +60,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="/LucindaLogo.png" type="image/png" />
+        <meta property="og:image" content="/LucindaLogo.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
