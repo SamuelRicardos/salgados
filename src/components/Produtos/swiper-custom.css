@@ -1,0 +1,27 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fb923c; /* laranja suave */
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 9999px;
+  padding: 50px;
+  transition: background 0.3s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(251, 146, 60, 0.6);
+  color: white;
+}
+
+.swiper-button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Diminuir os botões no mobile */
+@media (max-width: 640px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    padding: 25px; /* metade do tamanho original */
+  }
+}

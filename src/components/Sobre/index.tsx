@@ -8,7 +8,7 @@ export const Sobre = () => {
   return (
     <section
       aria-labelledby="sobre-title"
-      className="bg-[#FFF3E0] text-[#5D3A00] min-h-screen flex flex-col justify-center py-16 px-6 sm:px-12 lg:px-24 font-serif"
+      className="bg-[#FFF3E0] text-[#5D3A00] min-h-screen flex flex-col justify-center py-16 px-6 sm:px-12 lg:px-24"
     >
       <header className="max-w-3xl mx-auto text-center mb-12">
         <h2
