@@ -7,6 +7,7 @@ import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { Produtos } from '@/components/Produtos';
 import { Sobre } from '@/components/Sobre';
+import { WhatsappIcon } from '@/components/Whatsapp';
 import React from 'react';
 
 export default function HomePage() {
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Cardapio/>
       <Contato />
       <Footer />
+      <WhatsappIcon />
     </div>
   );
 }
