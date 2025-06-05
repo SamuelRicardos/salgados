@@ -5,6 +5,10 @@ import Image from 'next/image'
 import SalgadoImg from '../../assets/Coxinhas.jpg'
 import SalgadoImg2 from '../../assets/Pastel.jpg'
 import SalgadoImg3 from '../../assets/SalgadoQueijo.jpg'
+import SalgadoImg4 from '../../assets/bolinhoCalabresa.jpg'
+import SalgadoImg5 from '../../assets/empada.jpg'
+import SalgadoImg6 from '../../assets/kibe.jpg'
+import SalgadoImg7 from '../../assets/salgadosVariados.jpg'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'
@@ -36,6 +40,34 @@ const produtos = [
     nome: 'Salgado de queijo',
     descricao: 'Salgado recheado com queijo derretido, perfeito para qualquer hora.',
   },
+  {
+    id: 4,
+    imagem: SalgadoImg4,
+    alt: 'Bolinho de calabresa',
+    nome: 'Bolinho de calabresa',
+    descricao: 'Explosão de sabor com calabresa temperada e massa crocante. Um clássico irresistível!',
+  },
+  {
+    id: 5,
+    imagem: SalgadoImg5,
+    alt: 'Empada de frango',
+    nome: 'Empada de frango',
+    descricao: 'Frango cremoso e massa amanteigada que derrete na boca. Sabor que acolhe!',
+  },
+  {
+    id: 6,
+    imagem: SalgadoImg6,
+    alt: 'Kibe tradicional',
+    nome: 'Kibe tradicional',
+    descricao: 'Receita caseira com toque especial: carne bem temperada e textura suculenta.',
+  },
+  {
+    id: 7,
+    imagem: SalgadoImg7,
+    alt: 'Mais delícias esperando por você',
+    nome: '...e muitas outras delícias!',
+    descricao: 'Tem muito mais esperando por você: sabores variados, feitos com carinho e tradição. Venha descobrir!',
+  }
 ]
 
 export const Produtos = () => {
@@ -74,28 +106,45 @@ export const Produtos = () => {
 
               <div
                 className="
-                  absolute bottom-6 left-6 sm:right-6
-                  max-w-xs bg-black/50 backdrop-blur-md
-                  rounded-xl p-6 text-white drop-shadow-lg
-                  shadow-black/50 ring-1 ring-white/20
-                  flex flex-col space-y-4 animate-fadeInUp
-                "
+          absolute bottom-6 left-6 sm:right-6
+          max-w-xs bg-black/50 backdrop-blur-md
+          rounded-xl p-6 text-white drop-shadow-lg
+          shadow-black/50 ring-1 ring-white/20
+          flex flex-col space-y-4 animate-fadeInUp
+        "
               >
                 <h3 className="text-2xl font-bold tracking-wide drop-shadow-md">{produto.nome}</h3>
                 <p className="text-sm leading-relaxed drop-shadow-sm">{produto.descricao}</p>
-                <button
-                  type="button"
-                  className="
-                    bg-gradient-to-r from-orange-400 to-orange-600
-                    hover:from-orange-500 hover:to-orange-700
-                    text-white font-semibold py-3 px-8 rounded-full
-                    shadow-lg hover:shadow-xl transition duration-300
-                    ease-in-out transform cursor-pointer hover:-translate-y-1
-                  "
-                  onClick={() => alert(`Comprar: ${produto.nome}`)}
-                >
-                  Comprar
-                </button>
+
+                {produto.id === 7 ? (
+                  <button
+                    type="button"
+                    className="
+              bg-gradient-to-r from-orange-400 to-orange-600
+              hover:from-orange-500 hover:to-orange-700
+              text-white font-semibold py-3 px-8 rounded-full
+              shadow-lg hover:shadow-xl transition duration-300
+              ease-in-out transform cursor-pointer hover:-translate-y-1
+            "
+                    onClick={() => alert('Veja o cardápio completo em breve!')}
+                  >
+                    Ver Cardápio Completo
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    className="
+              bg-gradient-to-r from-orange-400 to-orange-600
+              hover:from-orange-500 hover:to-orange-700
+              text-white font-semibold py-3 px-8 rounded-full
+              shadow-lg hover:shadow-xl transition duration-300
+              ease-in-out transform cursor-pointer hover:-translate-y-1
+            "
+                    onClick={() => alert(`Comprar: ${produto.nome}`)}
+                  >
+                    Comprar
+                  </button>
+                )}
               </div>
             </div>
           </SwiperSlide>
