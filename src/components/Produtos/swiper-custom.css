@@ -7,6 +7,14 @@
   transition: background 0.3s;
 }
 
+.swiper-button-prev {
+  left: -15px; /* mais para a esquerda */
+}
+
+.swiper-button-next {
+  right: -15px; /* mais para a direita */
+}
+
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   background-color: rgba(251, 146, 60, 0.6);
@@ -40,7 +48,7 @@
 .swiper-pagination-bullet-active {
   background-color: #fb923c;
   border-color: #fb923c;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   box-shadow: 0 0 6px rgba(251, 146, 60, 0.8);
 }

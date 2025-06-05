@@ -12,7 +12,6 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-
 import './swiper-custom.css'
 
 const produtos = [
@@ -41,14 +40,12 @@ const produtos = [
 
 export const Produtos = () => {
   return (
-    <section id="produtos" className="bg-[#FFF3E0] relative">
-      <div className="absolute inset-0 bg-black/50 -z-10" />
-
-      <header className="text-center py-12 relative z-10">
-        <h2 className="text-4xl sm:text-5xl font-bold text-[#D2691E] 0 mb-4">
+    <section id="produtos" className="bg-[#3E2700] text-white py-16 px-6 sm:px-12 lg:px-24">
+      <header className="text-center mb-12">
+        <h2 className="text-4xl sm:text-5xl font-bold text-orange-400 mb-4">
           Nossos Produtos
         </h2>
-        <p className="text-lg sm:text-xl text-[#7A4E1D]">
+        <p className="text-lg sm:text-xl text-orange-100">
           Delícias feitas com carinho, para todos os momentos.
         </p>
       </header>
@@ -61,7 +58,7 @@ export const Produtos = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000 }}
         loop
-        className="w-full h-[400px] sm:h-[500px] lg:h-[650px] rounded-lg overflow-hidden relative"
+        className="w-full h-[400px] sm:h-[500px] lg:h-[650px] rounded-lg overflow-hidden"
       >
         {produtos.map((produto) => (
           <SwiperSlide key={produto.id}>
@@ -75,48 +72,31 @@ export const Produtos = () => {
                 quality={100}
               />
 
-<div
-  className="
-    absolute bottom-6 left-11 sm:left-auto sm:right-6
-    max-w-xs
-    bg-gradient-to-r from-black/60 via-black/40 to-black/60
-    backdrop-blur-md
-    rounded-xl
-    p-6
-    text-white
-    drop-shadow-lg
-    shadow-black/50
-    ring-1 ring-white/20
-    flex flex-col
-    space-y-4
-    animate-fadeInUp
-  "
->
-  <h3 className="text-2xl font-bold tracking-wide drop-shadow-md">{produto.nome}</h3>
-  <p className="text-sm leading-relaxed drop-shadow-sm">{produto.descricao}</p>
-  <button
-    type="button"
-    className="
-      bg-gradient-to-r from-orange-400 to-orange-600
-      hover:from-orange-500 hover:to-orange-700
-      text-white
-      font-semibold
-      py-3 px-8
-      rounded-full
-      shadow-lg
-      hover:shadow-xl
-      transition
-      duration-300
-      ease-in-out
-      transform
-      cursor-pointer
-      hover:-translate-y-1
-    "
-    onClick={() => alert(`Comprar: ${produto.nome}`)}
-  >
-    Comprar
-  </button>
-</div>
+              <div
+                className="
+                  absolute bottom-6 left-6 sm:right-6
+                  max-w-xs bg-black/50 backdrop-blur-md
+                  rounded-xl p-6 text-white drop-shadow-lg
+                  shadow-black/50 ring-1 ring-white/20
+                  flex flex-col space-y-4 animate-fadeInUp
+                "
+              >
+                <h3 className="text-2xl font-bold tracking-wide drop-shadow-md">{produto.nome}</h3>
+                <p className="text-sm leading-relaxed drop-shadow-sm">{produto.descricao}</p>
+                <button
+                  type="button"
+                  className="
+                    bg-gradient-to-r from-orange-400 to-orange-600
+                    hover:from-orange-500 hover:to-orange-700
+                    text-white font-semibold py-3 px-8 rounded-full
+                    shadow-lg hover:shadow-xl transition duration-300
+                    ease-in-out transform cursor-pointer hover:-translate-y-1
+                  "
+                  onClick={() => alert(`Comprar: ${produto.nome}`)}
+                >
+                  Comprar
+                </button>
+              </div>
             </div>
           </SwiperSlide>
         ))}

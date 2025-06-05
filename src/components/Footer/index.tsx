@@ -18,7 +18,7 @@ export const Footer = () => {
           <h4 className="text-xl font-semibold mb-4 text-orange-400">Contato</h4>
           <ul className="space-y-2 text-sm text-orange-100">
             <li className="flex items-center gap-2">
-              <BiPhone /> (61) 99999-9999
+              <BiPhone /> (84) 99999-9999
             </li>
             <li className="flex items-center gap-2">
               <IoLogoWhatsapp /> <a href="https://wa.me/5561999999999" target="_blank" rel="noopener noreferrer">WhatsApp</a>
@@ -27,7 +27,7 @@ export const Footer = () => {
               <BiEnvelope /> contato@salgadosdavo.com.br
             </li>
             <li className="flex items-center gap-2">
-              <BiMap /> Brasília - DF
+              <BiMap /> Parnamirim - RN
             </li>
           </ul>
         </div>
