@@ -7,7 +7,7 @@ import { Produtos } from '@/components/Produtos';
 import { Sobre } from '@/components/Sobre';
 import React from 'react'
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
         <Header/>
@@ -19,3 +19,5 @@ export const Home = () => {
     </div>
   )
 }
+
+export default Home

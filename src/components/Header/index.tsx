@@ -2,7 +2,11 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { FaBars, FaTimes, FaUtensils } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import Logo from '../../assets/LucindaLogo.png'
+import Image from 'next/image'
+
+
 
 export const Header = () => {
   const [menuAberto, setMenuAberto] = useState(false)
@@ -12,12 +16,17 @@ export const Header = () => {
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="max-w-12xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
 
           <div className="flex items-center gap-2 text-orange-600 font-bold text-xl">
-            <FaUtensils className="text-2xl" />
+
             <Link href="/" className="hover:text-orange-700 transition-colors">
-              Lucinda
+              <Image
+                src={Logo}
+                alt="Logo Lucinda"
+                width={80}
+                height={80}
+              />
             </Link>
           </div>
 
