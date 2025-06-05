@@ -34,7 +34,7 @@ export const Header = () => {
             <Link href="/" className="text-gray-700 hover:text-orange-600 transition-colors">
               Início
             </Link>
-            <Link href="/cardapio" className="text-gray-700 hover:text-orange-600 transition-colors">
+            <Link href="" className="text-gray-700 hover:text-orange-600 transition-colors">
               Cardápio
             </Link>
             <Link href="#produtos" className="text-gray-700 hover:text-orange-600 transition-colors">
@@ -53,7 +53,7 @@ export const Header = () => {
               rel="noopener noreferrer"
               className="ml-4 px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-full text-sm font-semibold transition-colors"
             >
-              Pedir Agora
+              Pedir agora
             </Link>
           </nav>
 

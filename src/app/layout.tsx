@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "Delícias da Lucinda",
   description: "Salgados irresistíveis feitos com carinho! Ideal para festas, eventos e lanches. Peça agora pelo WhatsApp.",
   keywords: [
+    "kibe"
+    "bolo de queijo",
+    "empada",
+    "coxinha",
+    "pastel",
     "salgados",
     "festa",
     "delícias da lucinda",
@@ -27,17 +32,17 @@ export const metadata: Metadata = {
     "encomenda salgados",
     "lucinda"
   ],
-  authors: [{ name: "Delícias da Lucinda", url: "https://deliciasdalucinda.com.br" }],
+  authors: [{ name: "Delícias da Lucinda", url: "https://lucinda-salgados.vercel.app/" }],
   creator: "Delícias da Lucinda",
-  metadataBase: new URL("https://deliciasdalucinda.com.br"),
+  metadataBase: new URL("https://lucinda-salgados.vercel.app/"),
   openGraph: {
     title: "Delícias da Lucinda | Salgados Artesanais",
     description: "Salgados artesanais crocantes e saborosos, perfeitos para qualquer ocasião. Encomende já pelo WhatsApp!",
-    url: "https://deliciasdalucinda.com.br",
+    url: "https://lucinda-salgados.vercel.app/",
     siteName: "Delícias da Lucinda",
     images: [
       {
-        url: "/LucindaLogo.png",
+        url: "/LogoLucinda2.png",
         width: 1200,
         height: 630,
         alt: "Logo Delícias da Lucinda com fundo de salgados",
@@ -45,12 +50,6 @@ export const metadata: Metadata = {
     ],
     locale: "pt_BR",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Delícias da Lucinda | Salgados Artesanais",
-    description: "Salgados crocantes, artesanais e cheios de sabor. Faça seu pedido agora pelo WhatsApp!",
-    images: ["/og-image.jpg"],
   },
 };
 

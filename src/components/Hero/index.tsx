@@ -31,8 +31,8 @@ export const Hero = () => {
           height={200}
           className="mb-6"
         />
-        <p className="text-lg max-w-md">
-          Bem-vindo à Lucinda! Delícias artesanais feitas com carinho para encantar seu paladar.
+        <p className="text-2xl max-w-md font-bold">
+          Bem-vindo ao Delicias da Lucinda! Delícias artesanais feitas com carinho para encantar seu paladar.
         </p>
       </div>
     </section>
