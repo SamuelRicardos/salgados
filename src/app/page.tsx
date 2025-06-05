@@ -1,9 +1,22 @@
-import { Home } from "@/pages/Home";
+"use client";
 
-export default function App() {
+import { Contato } from '@/components/Contato';
+import { Footer } from '@/components/Footer';
+import { Header } from '@/components/Header';
+import { Hero } from '@/components/Hero';
+import { Produtos } from '@/components/Produtos';
+import { Sobre } from '@/components/Sobre';
+import React from 'react';
+
+export default function HomePage() {
   return (
-    <>
-    <Home/>
-    </>
-  )
+    <div>
+      <Header />
+      <Hero />
+      <Sobre />
+      <Produtos />
+      <Contato />
+      <Footer />
+    </div>
+  );
 }
