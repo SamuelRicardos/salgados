@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![image](https://github.com/user-attachments/assets/f66e13f6-8a4d-4cae-bbef-97668d76b69b)
 
-## Getting Started
+# 🥐 Delícias da Lucinda
 
-First, run the development server:
+Um site institucional para a marca **Delícias da Lucinda**, especializado em salgados artesanais feitos com muito carinho, ideal para festas, eventos e lanches rápidos.
+
+## 🔗 Acesse o site
+
+👉 [lucinda-salgados.vercel.app](https://lucinda-salgados.vercel.app/)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/) — Framework React para aplicações modernas
+- [Tailwind CSS](https://tailwindcss.com/) — Estilização utilitária e responsiva
+- [React Icons](https://react-icons.github.io/react-icons/) — Ícones otimizados para React
+
+---
+
+## 📦 Funcionalidades
+
+- Página de apresentação com foco visual
+- Cardápio com três opções de caixas:
+  - 25 unidades — R$ 15,00
+  - 50 unidades — R$ 30,00
+  - 100 unidades — R$ 60,00
+- Botões que direcionam diretamente para o WhatsApp com mensagem personalizada
+- Ícone flutuante de WhatsApp para fácil contato
+- SEO otimizado com `Metadata` e `OpenGraph`
+- Scroll suave ao navegar pelas seções do site
+- Design responsivo para mobile, tablet e desktop
+
+---
+
+## 📁 Estrutura do Projeto ( modelo )
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📦 projeto/
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+├── components/
+│   ├── Header.tsx
+│   ├── Cardapio.tsx
+│   ├── WhatsappIcon.tsx
+├── public/
+│   └── LogoLucinda2.png
+├── styles/
+│   └── globals.css
+├── next.config.js
+└── tailwind.config.js
