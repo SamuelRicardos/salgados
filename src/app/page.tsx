@@ -1,5 +1,6 @@
 "use client";
 
+import { Cardapio } from '@/components/Cardapio';
 import { Contato } from '@/components/Contato';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Hero />
       <Sobre />
       <Produtos />
+      <Cardapio/>
       <Contato />
       <Footer />
     </div>

@@ -75,7 +75,7 @@ export const Produtos = () => {
     <section id="produtos" className="bg-[#3E2700] text-white py-16 px-6 sm:px-12 lg:px-24">
       <header className="text-center mb-12">
         <h2 className="text-4xl sm:text-5xl font-bold text-orange-400 mb-4">
-          Nossos Produtos
+          Nossos produtos
         </h2>
         <p className="text-lg sm:text-xl text-orange-100">
           Delícias feitas com carinho, para todos os momentos.

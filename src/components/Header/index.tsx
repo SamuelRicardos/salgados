@@ -34,7 +34,7 @@ export const Header = () => {
             <Link href="/" className="text-gray-700 hover:text-orange-600 transition-colors">
               Início
             </Link>
-            <Link href="" className="text-gray-700 hover:text-orange-600 transition-colors">
+            <Link href="#cardapio" className="text-gray-700 hover:text-orange-600 transition-colors">
               Cardápio
             </Link>
             <Link href="#produtos" className="text-gray-700 hover:text-orange-600 transition-colors">
@@ -74,7 +74,7 @@ export const Header = () => {
             <Link href="/" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
               Início
             </Link>
-            <Link href="/cardapio" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
+            <Link href="#cardapio" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
               Cardápio
             </Link>
             <Link href="#sobre-nos" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
