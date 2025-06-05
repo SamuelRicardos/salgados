@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Delícias da Lucinda",
   description: "Salgados irresistíveis feitos com carinho! Ideal para festas, eventos e lanches. Peça agora pelo WhatsApp.",
   keywords: [
-    "kibe"
+    "kibe",
     "bolo de queijo",
     "empada",
     "coxinha",
