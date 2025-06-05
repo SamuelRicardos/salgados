@@ -41,7 +41,7 @@ export const Hero = () => {
             <BiBookOpen size={18} className="sm:w-5 sm:h-5 w-4 h-4" />
           </Link>
           <a
-            href="https://wa.me/5599999999999"
+            href="https://wa.me/5584996056478"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-600 hover:bg-orange-700 text-white px-3 sm:px-6 py-2 sm:py-3 rounded-full text-sm font-semibold transition-colors shadow-md flex items-center gap-2 justify-center"

@@ -128,7 +128,7 @@ export const Produtos = () => {
             "
                     onClick={() => alert('Veja o cardápio completo em breve!')}
                   >
-                    Ver Cardápio Completo
+                    Ver cardápio completo
                   </button>
                 ) : (
                   <button
@@ -140,7 +140,13 @@ export const Produtos = () => {
               shadow-lg hover:shadow-xl transition duration-300
               ease-in-out transform cursor-pointer hover:-translate-y-1
             "
-                    onClick={() => alert(`Comprar: ${produto.nome}`)}
+                    onClick={() =>
+                      window.open(
+                        `https://wa.me/5584996056478?text=Olá! Gostaria de comprar: ${encodeURIComponent(produto.nome)}`,
+                        '_blank'
+                      )
+                    }
+
                   >
                     Comprar
                   </button>

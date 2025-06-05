@@ -17,7 +17,7 @@ export const Header = () => {
           <div className="flex items-center gap-2 text-orange-600 font-bold text-xl">
             <FaUtensils className="text-2xl" />
             <Link href="/" className="hover:text-orange-700 transition-colors">
-              Delícia Salgados
+              Lucinda
             </Link>
           </div>
 
@@ -39,7 +39,7 @@ export const Header = () => {
             </Link>
 
             <Link
-              href="https://wa.me/5599999999999"
+              href="https://wa.me/5584996056478"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-full text-sm font-semibold transition-colors"
@@ -78,7 +78,7 @@ export const Header = () => {
               Contato
             </Link>
             <a
-              href="https://wa.me/5599999999999"
+              href="https://wa.me/5584996056478"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 w-full text-center px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-full text-sm font-semibold transition-colors"
