@@ -11,7 +11,7 @@ export const Header = () => {
 
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-12xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
 
           <div className="flex items-center gap-2 text-orange-600 font-bold text-xl">
@@ -28,21 +28,24 @@ export const Header = () => {
             <Link href="/cardapio" className="text-gray-700 hover:text-orange-600 transition-colors">
               Cardápio
             </Link>
-            <Link href="/sobre" className="text-gray-700 hover:text-orange-600 transition-colors">
-              Quem Somos
+            <Link href="#produtos" className="text-gray-700 hover:text-orange-600 transition-colors">
+              Produtos
             </Link>
-            <Link href="/contato" className="text-gray-700 hover:text-orange-600 transition-colors">
+            <Link href="#sobre-nos" className="text-gray-700 hover:text-orange-600 transition-colors">
+              Quem somos
+            </Link>
+            <Link href="#contato" className="text-gray-700 hover:text-orange-600 transition-colors">
               Contato
             </Link>
 
-            <a
+            <Link
               href="https://wa.me/5599999999999"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-full text-sm font-semibold transition-colors"
             >
               Pedir Agora
-            </a>
+            </Link>
           </nav>
 
           <button
@@ -65,10 +68,13 @@ export const Header = () => {
             <Link href="/cardapio" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
               Cardápio
             </Link>
-            <Link href="/sobre" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
+            <Link href="#sobre-nos" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
               Quem Somos
             </Link>
-            <Link href="/contato" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
+            <Link href="#produtos" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
+              produtos
+            </Link>
+            <Link href="#contato" className="text-gray-700 hover:text-orange-600" onClick={alternarMenu}>
               Contato
             </Link>
             <a

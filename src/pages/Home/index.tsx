@@ -1,4 +1,6 @@
 "use client";
+import { Contato } from '@/components/Contato';
+import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { Produtos } from '@/components/Produtos';
@@ -12,6 +14,8 @@ export const Home = () => {
         <Hero/>
         <Sobre/>
         <Produtos/>
+        <Contato/>
+        <Footer/>
     </div>
   )
 }

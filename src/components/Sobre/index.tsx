@@ -7,12 +7,13 @@ import SalgadoImg from '../../assets/salgados.jpg'
 export const Sobre = () => {
   return (
     <section
-      aria-labelledby="sobre-title"
+      id="sobre-nos"
+      aria-labelledby="sobre-nos"
       className="bg-[#FFF3E0] text-[#5D3A00] min-h-screen flex flex-col justify-center py-16 px-6 sm:px-12 lg:px-24"
     >
       <header className="max-w-3xl mx-auto text-center mb-12">
         <h2
-          id="sobre-title"
+
           className="text-4xl sm:text-5xl font-bold text-[#D2691E] mb-4"
         >
           Sobre Nós
@@ -23,7 +24,7 @@ export const Sobre = () => {
       </header>
 
       <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto">
-        <div className="md:w-1/2 rounded-lg overflow-hidden shadow-md h-64 sm:h-72 md:h-80">
+        <div className="w-full md:w-1/2 rounded-lg overflow-hidden shadow-md h-64 sm:h-72 md:h-80">
           <Image
             src={SalgadoImg}
             alt="Variedade de salgados artesanais fresquinhos"

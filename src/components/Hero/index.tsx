@@ -12,7 +12,7 @@ export const Hero = () => {
       className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-around px-4 sm:px-6 lg:px-8 py-16 overflow-hidden"
       aria-label="Seção principal do site"
     >
-      {/* Background Parallax */}
+
       <div
         aria-hidden="true"
         className="fixed inset-0 bg-center bg-cover bg-no-repeat -z-10"

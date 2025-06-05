@@ -19,29 +19,29 @@ const produtos = [
   {
     id: 1,
     imagem: SalgadoImg,
-    alt: 'Coxinha Tradicional',
-    nome: 'Coxinha Tradicional',
+    alt: 'Coxinha tradicional',
+    nome: 'Coxinha tradicional',
     descricao: 'Deliciosa coxinha recheada com frango temperado, crocante por fora e macia por dentro.',
   },
   {
     id: 2,
     imagem: SalgadoImg2,
-    alt: 'Pastel Crocante',
-    nome: 'Pastel Crocante',
+    alt: 'Pastel crocante',
+    nome: 'Pastel crocante',
     descricao: 'Pastel fresquinho e crocante, recheado com queijo e carne moída.',
   },
   {
     id: 3,
     imagem: SalgadoImg3,
-    alt: 'Salgado de Queijo',
-    nome: 'Salgado de Queijo',
+    alt: 'Salgado de queijo',
+    nome: 'Salgado de queijo',
     descricao: 'Salgado recheado com queijo derretido, perfeito para qualquer hora.',
   },
 ]
 
 export const Produtos = () => {
   return (
-    <section className="bg-[#FFF3E0] relative">
+    <section id="produtos" className="bg-[#FFF3E0] relative">
       <div className="absolute inset-0 bg-black/50 -z-10" />
 
       <header className="text-center py-12 relative z-10">
