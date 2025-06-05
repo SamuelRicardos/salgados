@@ -16,7 +16,7 @@ export const Sobre = () => {
 
           className="text-4xl sm:text-5xl font-bold text-[#D2691E] mb-4"
         >
-          Sobre Nós
+          Sobre nós
         </h2>
         <p className="text-lg sm:text-xl text-[#7A4E1D]">
           Com amor e tradição, nossa família prepara salgados artesanais que aquecem o coração e encantam o paladar.
