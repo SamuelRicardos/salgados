@@ -5,6 +5,7 @@ import { Contato } from '@/components/Contato';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
+import Localizacao from '@/components/Localizacao';
 import { Produtos } from '@/components/Produtos';
 import { Sobre } from '@/components/Sobre';
 import { WhatsappIcon } from '@/components/Whatsapp';
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Sobre />
       <Produtos />
       <Cardapio/>
+      <Localizacao />
       <Contato />
       <Footer />
       <WhatsappIcon />

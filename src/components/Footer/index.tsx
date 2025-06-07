@@ -24,7 +24,7 @@ export const Footer = () => {
               <IoLogoWhatsapp /> <a href="https://wa.me/5584996056478" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </li>
             <li className="flex items-center gap-2">
-              <BiMap /> Parnamirim - RN
+              <BiMap /> Rua Câmara Cascudo, 720, Parque de Exposições, Parnamirim - RN
             </li>
           </ul>
         </div>
